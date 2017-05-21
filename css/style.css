@@ -1129,4 +1129,51 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
+/*  by Ashan*/
+
+.fh5co-contact-info ul {
+  padding: 0;
+  margin: 0;
+}
+.fh5co-contact-info ul li {
+  padding: 0 0 0 40px;
+  margin: 0 0 30px 0;
+  list-style: none;
+  position: relative;
+}
+.fh5co-contact-info ul li:before {
+  color: #6173f4;
+  position: absolute;
+  left: 0;
+  top: .05em;
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fh5co-contact-info ul li.address:before {
+  font-size: 30px;
+  content: "\f277";
+}
+.fh5co-contact-info ul li.phone:before {
+  font-size: 23px;
+  content: "\f095";
+}
+.fh5co-contact-info ul li.email:before {
+  font-size: 23px;
+  content: "\e002";
+}
+.fh5co-contact-info ul li.url:before {
+  font-size: 23px;
+  content: "\e9af";
+}
+.js .animate-box {
+  opacity: 0;
+}
 /*# sourceMappingURL=style.css.map */
