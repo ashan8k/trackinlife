@@ -2045,6 +2045,9 @@
 .icon-fonticons:before {
 	content: "\f280";
 }
+.icon-mobile-home:before {
+	content: "\f281";
+}
 .icon-eye2:before {
 	content: "\e000";
 }
