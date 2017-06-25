@@ -627,36 +627,43 @@
 			
 				<div class="col-md-6 col-md-offset-0 col-sd-offset-2  ">
 					<h3>Get In Touch</h3>
-					<form action="#">
+					<form method="post" role="form" action="../php/send_mail.php">
 						<div class="row form-group">
 							<div class="col-md-6">
 								<!-- <label for="fname">First Name</label> -->
-								<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+								<input type="text" name="first_name" class="form-control" placeholder="Your firstname">
 							</div>
 							<div class="col-md-6">
 								<!-- <label for="lname">Last Name</label> -->
-								<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+								<input type="text" name="last_name" class="form-control" placeholder="Your lastname">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
 								<!-- <label for="email">Email</label> -->
-								<input type="text" id="email" class="form-control" placeholder="Your email address">
+								<input type="text" name="email" class="form-control" placeholder="Your email address">
+							</div>
+						</div>
+						
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="telephone">Telephone</label> -->
+								<input type="text" name="telephone" class="form-control" maxlength="30" size="30" placeholder="Your telephone number">
 							</div>
 						</div>
 
-						<div class="row form-group">
-							<div class="col-md-12">
+						<!--<div class="row form-group">
+							<div class="col-md-12"> -->
 								<!-- <label for="subject">Subject</label> -->
-								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+								<!--<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
 							</div>
-						</div>
+						</div>-->
 
 						<div class="row form-group">
 							<div class="col-md-12">
 								<!-- <label for="message">Message</label> -->
-								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+								<textarea name="comments" id="comments" cols="30" rows="10" class="form-control" placeholder="Feel free to tell something"></textarea>
 							</div>
 						</div>
 						<div class="form-group">
